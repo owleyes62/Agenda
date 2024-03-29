@@ -9,7 +9,7 @@ class ContactForm(forms.ModelForm):
         widget=forms.TextInput(
             attrs={
                 'class': 'class-a class-b',
-                'placeholder': 'Escreca aqui'
+                'placeholder': 'Escreva aqui'
             }
         ),
         label='Primeiro Nome',
@@ -19,7 +19,7 @@ class ContactForm(forms.ModelForm):
         widget=forms.TextInput(
             attrs={
                 'class': 'class-c class-d',
-                'placeholder': 'Escreca aqui'
+                'placeholder': 'Escreva aqui'
             }
         ),
         label='Segundo Nome',
